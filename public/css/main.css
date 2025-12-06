@@ -60,11 +60,14 @@ main {
 .card {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .card__header,
 .card__content {
   padding: 1rem;
+  margin-top: auto;
 }
 
 .card__header h1,
